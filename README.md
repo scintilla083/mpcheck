@@ -34,6 +34,13 @@ Point mpcheck at the loadlibrary dir with `--engine <dir>` or the
 `MPCHECK_ENGINE` env var; by default it looks for `./loadlibrary` or
 `../loadlibrary`.
 
+Optional bash completion (`scan`/`locate`, flags, file/dir arguments):
+
+```
+cp completions/mpcheck.bash ~/.local/share/bash-completion/completions/mpcheck
+# or: source completions/mpcheck.bash   # e.g. from ~/.bashrc
+```
+
 ## Use
 
 ```
