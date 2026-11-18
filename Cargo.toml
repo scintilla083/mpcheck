@@ -1,0 +1,15 @@
+[package]
+name = "mpcheck"
+version = "0.1.0"
+edition = "2021"
+description = "Fast Windows Defender signature locator for Linux (gocheck-style), driving mpengine via loadlibrary"
+license = "MIT"
+repository = "https://github.com/scintilla083/mpcheck"
+readme = "README.md"
+keywords = ["defender", "antivirus", "signature", "malware", "security"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+
+[profile.release]
+strip = true
